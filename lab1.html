@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="lab1.css">
+    <link rel="stylesheet" href="about-me.css">
+</head>
+<body>
+    <h1>Форма реєстрації</h1>
+<br>
+<div >
+<div class="container">
+</div>
+    <form action="https://webhook.site/your-unique-url" method="post">
+        <label for="firstName">Ім'я:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Прізвище:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="email">Електронна пошта:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="confirmPassword">Підтвердіть пароль:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+        <label for="birthdate">Дата народження:</label><br>
+        <input type="date" id="birthdate" name="birthdate"><br>
+
+        <label for="gender">Стать:</label><br>
+        <select id="gender" name="gender">
+            <option value="male">Чоловік</option>
+            <option value="female">Жінка</option>
+            <option value="other">Інше</option>
+        </select>
+    <header>
+        <h2>Бондараренко Дарина Вадимівна</h2>
+        <nav>
+            <ul>
+                <li><a href="home-page.html">Головна</a></li>
+                <li><a href="about-me.html">Про мене</a></li>
+                <li><a href="practical.html">Практичні роботи</a></li>
+                <li><a href="lab.html">Лабораторні заняття</a></li>
+            </ul>
+        </nav>
+    </header>
+<footer>
+    <p>Контактні дані студента: Бондаренко Дарина, +38097533XXXX, dbondv2601@gmail.com</p>
+    <p>Роки навчання: 2022 - 2026</p>
+    </footer>
+        <input type="submit" value="Зареєструватися">
+    </form>
+</body>
+</html>
